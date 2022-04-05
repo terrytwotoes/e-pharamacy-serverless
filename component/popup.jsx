@@ -26,24 +26,6 @@ const Popup = () => {
     const [value, setValue] = useState('')
     const handleChange = (event) => setValue(event.target.value)
 
-//   return (
-//     <Popover lg>
-//   <PopoverTrigger>
-//     <Button>Pincode <Center ml={2}><ArrowDownIcon/></Center>  </Button>
-//   </PopoverTrigger>
-//   <Portal>
-//     <PopoverContent>
-//       <PopoverArrow/>
-//       <PopoverHeader mr={1.5}>Select pincode to see product availability</PopoverHeader>
-//       <PopoverCloseButton />
-//       <PopoverBody>
-//       <Input placeholder='Enter Pincode' size='sm' />
-//       </PopoverBody>
-//     </PopoverContent>
-//   </Portal>
-// </Popover>
-//   )
-// }
 
 const initRef = React.useRef()
   return (

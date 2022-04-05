@@ -2,7 +2,7 @@ import { Box, Text } from '@chakra-ui/react'
 import * as React from 'react'
 import { ProductCard } from './topBrandCard'
 import { brands } from '../pages/api/_data'
-import { ProductGrid } from './ProductGrid'
+import { ProductGrid } from './productGrid'
 
 export const TopBrandCarousel = () => (
   <Box
