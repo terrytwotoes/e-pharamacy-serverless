@@ -9,7 +9,7 @@ import {
   } from '@chakra-ui/react'
   import * as React from 'react'
   import { FaArrowRight } from 'react-icons/fa'
-  import { formatPrice } from './PriceTag'
+  import { formatPrice } from './priceTag'
   
   const OrderSummaryItem = (props) => {
     const { label, value, children } = props

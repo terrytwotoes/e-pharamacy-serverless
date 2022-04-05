@@ -12,8 +12,8 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { Rating } from './Rating'
-  import { PriceTag } from './PriceTag'
+  import { Rating } from './rating'
+  import { PriceTag } from './priceTag'
   
   export const ProductCard = (props) => {
     const { product, rootProps } = props
