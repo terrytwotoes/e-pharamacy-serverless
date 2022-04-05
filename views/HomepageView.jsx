@@ -1,8 +1,7 @@
 import Banner from '../component/banner'
 import Carousel from '../component/carousel'
-import Features from '../component/features'
 import Footer from '../component/footer'
-import Navbar from '../component/Navbar'
+import Navbar from '../component/navbar'
 import { Box, SimpleGrid } from '@chakra-ui/react'
 import * as React from 'react'
 import { FcPrivacy, FcFactory, FcInTransit, FcViewDetails } from 'react-icons/fc';
